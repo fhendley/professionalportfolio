@@ -7,16 +7,20 @@
   <body>
     <!-- Main Content -->
     <div class="head-img">
-      <div class="menu-container">
+      <div class="menu-container  anchor" id="home">
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
         <nav class = "menu">
-          <ul><li class="logo"><a href="index.html">Logo</a></li>
+          <ul><li class="logo"><a href="#home">Logo</a></li>
           </ul>
           <ul class="links">
-            <li class = "about"><a href = "about.html">About</a></li>
-            <li class="contact"><a href = "contact.html">Contact</a></li>
-            <li class = "projects"><a href = "projects.html">Projects</a></li>
+            <li class = "about"><a href = "#about">About</a></li>
+            <li class="contact"><a href = "#contact">Contact</a></li>
+            <li class = "projects"><a href = "#projects">Projects</a></li>
             </ul>
         </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+        </label>
       </div>
 
       <div class="header-container">
@@ -46,11 +50,35 @@
         <section class="content">
           <div class="grid-container">
             <div class="grid">
-                <p class = "grid-item first-item"> 1 </p>
-                <p class = "grid-item"> 2 </p>
-                <p class = "grid-item"> 3 </p>
-                <p class = "grid-item"> 4 </p>
-                <p class = "grid-item last-item"> 5 </p>
+              <div id= "about">
+                <div class = "grid-item anchor">
+
+                  <h1 > Some Facts About Me: </h1>
+                  <li> I am based in Cheshire </li>
+                  <li> I am 21 years old </li>
+                  <li> I am currently studying Web Design and Development at University </li>
+                  <li> I will be graduating University in July 2019 </li>
+                  <li> I love desiging and creating websites! </li>
+                </div>
+                </div>
+                <div id = "contact">
+                <div class = "grid-item anchor">
+                  <h1> Contact Me Here: </h1>
+                  <h2> Email: Frankiehendley@gmail.com </h2>
+                   </div>
+                <div>
+                  <div id="projects">
+                <div class = "grid-item anchor">
+                <h1> My Projects: </h1>
+              <h2> Click on an image to view the project </h2>
+              <h3> Captcha form: </h3>
+              <a href="https://fhendleycaptcha.netlify.com"><img class = "captchap" src = "images/CaptchaPNG.PNG"/></a>
+              <h3> Doggie Walks: </h3>
+              <a href="https://fhendleydoggiewalks.netlify.com"><img class = "captchap" src = "images/DW.PNG"/></a>
+             </div>
+              </div>
+                <!-- <div class = "grid-item"> 4 </div>
+                <div class = "grid-item last-item"> 5 </div> -->
               </div>
           </div>
         </section>
