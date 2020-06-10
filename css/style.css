@@ -285,9 +285,12 @@ li a {
     float: right;
 
     }
-    .sidebar-img{
-      padding-top: 40%;
-      padding:20px;
+
+    .sidebar a {
+      padding: 10px;
+      height: 100px;
+      padding-top: 30%;
+
     }
     .grid {
 
